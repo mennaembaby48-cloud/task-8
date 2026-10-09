@@ -1,0 +1,615 @@
+:root {
+    --main-color: #ff6900
+}
+
+.main-color {
+    color: var(--main-color);
+}
+.bg-main-color{
+    background-color: var(--main-color);
+}
+.text-orange{
+    color: #f54a00;
+}
+
+nav{
+    box-shadow:  0 1px 3px 0 #0000001a, 0 1px 2px -1px  #0000001a;
+}
+
+.text-darkGray {
+    color: #4a5565;
+}
+
+.handle-img {
+    width: 36px;
+    height: 36px;
+    border: 2px solid #ffb86a;
+
+}
+
+.navbar-nav {
+    border-top: 1px solid #ffedd4;
+}
+
+.nav-icon {
+    width: 48px;
+    height: 48px;
+    background-color: #fe4821;
+} 
+.navbar-nav li:hover .nav-link i,
+.navbar-nav li:hover .nav-link span {
+    color: #f54900;
+}
+
+.navbar-nav li .nav-link i,
+.navbar-nav li .nav-link span {
+    transition: color 0.3s;
+}
+
+.text-ligthGray {
+    color: #6a7282;
+}
+
+
+.p-32 {
+    padding:
+        32px;
+}
+
+.px-32 {
+    padding-inline:
+        32px;
+}
+
+.py-32 {
+    padding-block:
+        32px;
+}
+
+.pt-32 {
+    padding-top:
+        32px;
+}
+
+.pb-32 {
+    padding-bottom:
+        32px;
+}
+
+.pe-32 {
+    padding-right:
+        32px;
+}
+
+.ps-32 {
+    padding-left:
+        32px;
+}
+
+.p-12 {
+    padding:
+        12px;
+}
+
+.px-12 {
+    padding-inline:
+        12px;
+}
+
+.py-12 {
+    padding-block:
+        12px;
+}
+
+.pt-12 {
+    padding-top:
+        12px;
+}
+
+.pb-12 {
+    padding-bottom:
+        12px;
+}
+
+.pe-12 {
+    padding-right:
+        12px;
+}
+
+.ps-12 {
+    padding-left:
+        12px;
+}
+
+.fw-400{
+    font-weight: 400;
+}
+
+.top-leftPart-icon{
+    width: 48px;
+    height: 48px;
+    background-color: #ffedd4;
+    transition: background-color 0.3s;
+}
+.top-leftPart-icon:hover{
+background-color: #ffd6a7;
+
+}
+
+
+
+.rounded-14{
+    border-radius: 14px;
+}
+
+.m-12 {
+    margin: 12px;
+}
+
+.mx-12 {
+    margin-inline: 12px;
+}
+
+.my-12 {
+    margin-block: 12px;
+}
+
+.me-12 {
+    margin-right: 12px;
+}
+
+.ms-12 {
+    margin-left: 12px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+  .m-32 {
+        margin: 32px;
+    }
+
+    .mx-32 {
+        margin-inline: 32px;
+    }
+
+    .my-32 {
+        margin-block: 32px;
+    }
+
+    .me-32 {
+        margin-right: 32px;
+    }
+
+    .ms-32 {
+        margin-left: 32px;
+    }
+
+    .mb-32 {
+        margin-bottom: 32px;
+    }
+
+    .mt-32 {
+        margin-top: 32px;
+    }
+
+    .mt-32{
+        margin-top: 32px;
+    }
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.img-bottom {
+    bottom: 24px;
+    left: 24px;
+    right: 24px;
+}
+
+.py-32 {
+    padding-block: 32px;
+}
+
+.img-topRate {
+    top: 24px;
+    left: 24px;
+}
+
+.fa-star {
+    color: #fdc700;
+}
+
+.fa-fire-burner{
+        color: #fb2c36;
+    }
+    .fa-users{
+        color: #2b7fff;
+    }
+section,#Ingredients{
+    background-color: #fffaeb;
+}
+/* 
+.menu-section  .row >div:nth-of-type(2) {
+    scrollbar-width: thin;
+        scrollbar-color: #fe886a4d;
+        overflow-y: auto;
+
+} */
+
+.p-20{
+    padding: 20px;
+}
+.rounded-top-left-4{
+    border-top-left-radius:20px ;
+}
+
+.rounded-bottom-left-4{
+    border-bottom-left-radius: 20px;
+}
+
+.rounded-top-right-4{
+    border-top-right-radius:20px ;
+}
+.rounded-bottom-right-4{
+    border-bottom-right-radius:20px ;
+}
+.top-leftPart div >span:nth-of-type(1){
+background-color: #dbfce7;
+color: #008236;
+}
+.top-leftPart div >span:nth-of-type(2){
+background-color: #dbeafe;
+color: #1447e6;
+}
+
+section ul.nav {
+    border-bottom: 1px solid #e5e7eb;
+} 
+section ul.nav li a:hover i,section ul.nav li a:hover span{
+color:#364153 ;
+} 
+section ul.nav li a i,section ul.nav li a span{
+transition: color 0.3s;
+
+} 
+
+.Ingredients-steps{
+    width: 24px;
+    height: 24px;
+    background-color: #ff6900;
+}
+
+#Instructions ,#Ingredients,#Nutrition ,#Tips{
+    height: 350px;
+    scrollbar-width: thin;;
+    overflow-y: auto;
+}
+
+.Instructions{
+    width: 48px;
+    height: 48px;
+    background-color: var(--main-color);
+    flex-shrink: 0;
+}
+
+#Nutrition .row >div >div:nth-of-type(1) div > div:nth-of-type(1){
+    background-color: #ffedd4;
+    width: 40px;
+    height: 40px;
+}
+#Nutrition .row >div:nth-of-type(2) >div:nth-of-type(1) div > div:nth-of-type(1){
+    background-color: #dbeafe;
+}
+#Nutrition .row >div:nth-of-type(3) >div:nth-of-type(1) div > div:nth-of-type(1){
+    background-color: #fef9c2;
+}
+#Nutrition .row >div:nth-of-type(4) >div:nth-of-type(1) div > div:nth-of-type(1){
+    background-color: #ffe2e2;
+}
+#Nutrition .row >div:nth-of-type(5) >div:nth-of-type(1) div > div:nth-of-type(1){
+    background-color: #dbfce7;
+}
+#Nutrition .row >div:nth-of-type(6) >div:nth-of-type(1) div > div:nth-of-type(1){
+    background-color: #fce7f3;
+}
+
+#Nutrition .row >div {
+    background-color: #f9fafb;
+}
+
+.fa-fire{
+    color: #f54900;
+}
+.fa-dumbbell{
+    color: #155dfc;
+}
+.fa-wheat-awn{
+    color: #d08700;
+}
+.fa-droplet{
+    color: #e7000b;
+}
+.fa-seedling{
+    color: #00a63e;
+}
+.fa-cube{
+    color: #e60076;
+}
+.text-dark-2{
+    color: #364153;
+}
+
+
+#Tips >div >div{
+background-color: #fffbeb; 
+border-left:  4px solid #ffb900;
+}
+.fa-circle-check{
+color: #e17100;
+}
+
+
+.tab-content+div {
+ border-top: 1px solid #e5e7eb;
+}
+
+.tab-content+div button{
+background-image: linear-gradient(135deg,#ff6900 35%, #fb2c36 65% );
+transition: background-image 0.3s;
+}
+
+.tab-content+div button:hover{
+
+    background-image: linear-gradient(135deg,#f54800 35%,#e80004 65%);
+}
+
+.bg-red{
+    background-color:#fef2f2;
+}
+.border-start-red{
+    border-left:4px solid #fb2c36;
+}
+
+.fa-triangle-exclamation{
+    color:#fb2c36;
+}
+
+.text-darkRed{
+    color:#9f0712;
+}
+
+.text-lightRed{
+    color:#e7000b;
+}
+
+.nav .nav-item{
+    min-width:0;
+    flex:1 1 0;
+}
+
+.nav .nav-link{
+    min-width:0;
+    max-width:100%;
+}
+
+.nav .nav-item:before{
+    content:"";
+    position:absolute;
+    display:block;
+width:100%;
+height:1.5px;
+    background-color:var(--main-color);
+    bottom:0;
+    left:0;
+    transform:scaleX(0); 
+     transition:transform 0.3s;
+    transition:width 0.3s;
+}
+.nav .nav-item:has(.nav-link.active)::before{
+    transform:scaleX(1);
+}
+
+
+
+.nav .nav-link.active i, .nav .nav-link.active span{
+    color:var(--main-color) !important;
+}
+
+
+@media screen and (min-width:768px) {
+    .p-md-32 {
+        padding:
+            32px;
+    }
+
+    .px-md-32 {
+        padding-inline:
+            32px;
+    }
+
+    .py-md-32 {
+        padding-block:
+            32px;
+    }
+
+    .pt-md-32 {
+        padding-top:
+            32px;
+    }
+
+    .pb-md-32 {
+        padding-bottom:
+            32px;
+    }
+
+    .pe-md-32 {
+        padding-right:
+            32px;
+    }
+
+    .ps-md-32 {
+        padding-left:
+            32px;
+    }
+
+    .m-12 {
+        margin: 12px;
+    }
+
+    .mx-md-12 {
+        margin-inline: 12px;
+    }
+
+    .my-md-12 {
+        margin-block: 12px;
+    }
+
+    .me-md-12 {
+        margin-right: 12px;
+    }
+
+    .ms-md-12 {
+        margin-left: 12px;
+    }
+
+    .mb-md-12 {
+        margin-bottom: 12px;
+    }
+
+    .mt-md-12 {
+        margin-top: 12px;
+    }
+
+
+    .navbar-nav {
+        border-top: none;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:992px) {
+    .p-lg-32 {
+        padding:
+            32px;
+    }
+
+    .px-lg-32 {
+        padding-inline:
+            32px;
+    }
+
+    .py-lg-32 {
+        padding-block:
+            32px;
+    }
+
+    .p-t-lg-32 {
+        padding-top:
+            32px;
+    }
+
+    .p-b-lg-32 {
+        padding-bottom:
+            32px;
+    }
+
+    .pe-lg-32 {
+        padding-right:
+            32px;
+    }
+
+    .ps-lg-32 {
+        padding-left:
+            32px;
+    }
+
+    .m-lg-12 {
+        margin: 12px;
+    }
+
+    .mx-lg-12 {
+        margin-inline: 12px;
+    }
+
+    .my-lg-12 {
+        margin-block: 12px;
+    }
+
+    .me-lg-12 {
+        margin-right: 12px;
+    }
+
+    .ms-lg-12 {
+        margin-left: 12px;
+    }
+
+    .mb-lg-12 {
+        margin-bottom: 12px;
+    }
+
+    .mt-lg-12 {
+        margin-top: 12px;
+    }
+
+    .fs-lg-14 {
+        font-size: 14px;
+    }
+
+    .fs-lg-16 {
+        font-size: 16px
+    }
+
+    .fs-lg-18{
+        font-size: 18px;
+    }
+
+    .fs-lg-20 {
+        font-size: 20px;
+    }
+
+    .fs-lg-24 {
+        font-size: 24px;
+    }
+
+    .fs-lg-34{
+        font-size: 34px;
+    }
+
+    .navbar-nav {
+        border-top: none;
+    }
+
+    .p-lg-40{
+        padding: 40px;
+    }
+
+}

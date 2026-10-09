@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What`s For Dinner</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-relative py-3 px-4">
+        <div class="container-fluid px-0">
+
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center rounded-circle nav-icon me-12 ">
+                    <i class="fa-solid fa-utensils text-white fs-18 fs-lg-20"></i>
+                </div>
+
+                <div>
+                    <h1 class="fw-bolder fs-18 fs-lg-24 mb-0">What's For Dinner</h1>
+                    <p class="text-ligthGray mb-0 fs-12 fs-lg-14">Your daily meal inspiration</p>
+                </div>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars fs-4"></i>
+            </button>
+            <div class="collapse navbar-collapse mt-3 mt-lg-0 mt-md-0" id="navbarNav">
+                <ul class="navbar-nav py-3 py-lg-0 py-md-0 align-items-lg-center align-items-md-center ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active p-0 mb-3 mb-lg-0 mb-md-0 me-lg-4 d-flex align-items-center"
+                            aria-current="page" href="#">
+                            <i class="fa-solid fa-bookmark text-darkGray fs-20 me-12 me-lg-0"></i>
+                            <span class="text-darkGray fs-6 fw-ligth d-lg-none d-block">Save Recipes</span>
+
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 mb-3 mb-lg-0 mb-md-0 me-lg-4 d-flex align-items-center href=" #">
+                            <i class="fa-solid fa-clock-rotate-left text-darkGray fs-20 me-12 me-lg-0"></i>
+                            <span class="text-darkGray fs-6 fw-ligth d-lg-none d-block">Recent</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 mb-3 mb-lg-0 mb-md-0 me-lg-4 d-flex align-items-center" href="#">
+                            <i class="fa-solid fa-gear text-darkGray fs-20 me-12 me-lg-0"></i>
+                            <span class="text-darkGray fs-6 fw-ligth d-lg-none d-block">Settings</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 mb-3 mb-lg-0 mb-md-0 d-flex align-items-center" href="#">
+                            <img src="imgs/avatar-4 (2).jpg" alt="person"
+                                class="handle-img rounded-circle me-12 me-lg-0">
+                            <span class="text-darkGray fs-6 fw-ligth d-lg-none d-block">Profile</span>
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="menu-section px-4 py-32" id="recipe-section">
+        <div class="container-fluid px-0">
+            <div class="row gx-0 gy-0">
+                <div class="col-12 col-md-12 col-lg-5 position-relative">
+                    <img src="imgs/photo-1568901346375-23c9450c58cd.jpeg" alt="burger-sandwich" id="recipe-image"
+                        class="rounded-top-left-4 rounded-bottom-left-4 object-fit-cover h-100 w-100 align-self-stretch">
+                    <div
+                        class="rounded-4 bg-white py-2 px-3 position-absolute img-topRate d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-star fs-14 me-2"></i>
+                        <span class="fs-14 fw-500 me-2" id="recipe-rate">4.6</span>
+                        <span class="fs-12 text-ligthGray" id="recipe-reviews">(421 reviews)</span>
+                    </div>
+                    <div class="position-absolute img-bottom rounded-4 bg-white p-4">
+                        <div class="row gx-3 justify-content-between">
+                            <div class="col-4 text-center">
+                                <i class="fa-solid fa-clock main-color fs-5"></i>
+                                <p class="text-ligthGray fs-12 mb-0">Prep Time</p>
+                                <p class="fs-16 fw-bolder mb-0" id="prep-time">15 min</p>
+                            </div>
+                            <div class="col-4 text-center">
+                                <i class="fa-solid fa-fire-burner fs-5"></i>
+                                <p class="text-ligthGray fs-12 mb-0">Cook Time</p>
+                                <p class="fs-16 fw-bolder mb-0" id="cook-time">20 min</p>
+                            </div>
+                            <div class="col-4 text-center">
+                                <i class="fa-solid fa-users fs-5"></i>
+                                <p class="text-ligthGray fs-12 mb-0">Servings</p>
+                                <p class="fs-16 fw-bolder mb-0" id="serving">4 people</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-7">
+                    <div class="p-20 p-lg-40 bg-white rounded-top-right-4 rounded-bottom-right-4 overflow-y-auto">
+
+
+                        <div class="d-flex align-items-lg-center justify-content-between mb-4 flex-column flex-lg-row flex-md-row">
+
+                            <div class="top-leftPart order-2 order-lg-1 order-md-1">
+                                <div class="d-flex align-items-center mb-12">
+                                    <span class="px-12 py-1 rounded-4 me-12 fs-12 fw-500" id="recipe-level">Easy</span>
+                                    <span class="px-12 py-1 rounded-4 me-12 fs-12 fw-500"
+                                        id="recipe-cuisine">American</span>
+                                </div>
+
+                                <h2 class="fs-20 fs-lg-34 fw-bolder mb-2" id="recipe-title">Classic Beef Burger</h2>
+                                <p class="fs-12 fs-lg-16 fw-400 text-darkGray mb-0" id="recipe-desc">Juicy homemade
+                                    burger with all the
+                                    fixings</p>
+
+                            </div>
+
+                            <div class="d-flex align-items-center justify-content-end order-1 order-lg-2 order-md-2 mb-3 mb-lg-0 mb-md-0">
+                                <button
+                                    class="d-flex align-items-center justify-content-center me-2 top-leftPart-icon border-0 rounded-14">
+                                    <i class="fa-solid fa-bookmark main-color fs-16"></i>
+
+
+                                </button>
+                                <button
+                                    class="d-flex align-items-center justify-content-center top-leftPart-icon border-0 rounded-14">
+                                    <i class="fa-solid fa-share-nodes fs-16 main-color"></i>
+
+                                </button>
+                            </div>
+
+                        </div>
+
+                      <div id="time-warning" class="d-none">
+                          <div
+                            class="p-3 mb-4 bg-red border-start-red rounded-14 d-flex align-items-center">
+                            <i class="fa-solid fa-triangle-exclamation me-12"></i>
+
+                            <div>
+                                <p class="text-darkRed fs-14 fs-lg-16 fw-500 mb-0">Extended Preparation Time</p>
+                                <p class="fs-12 fs-lg-14 text-lightRed mb-0">This recipe requires more than 20 minutes to prepare. Plan accordingly!</p>
+
+                            </div>
+                        </div>
+                      </div>
+
+
+                        <ul class="nav flex-nowrap gap-2 p-3 mb-4 justify-content-lg-between justify-content-md-between justify-content-start ">
+                            <li class="nav-item position-relative">
+                                <a class="nav-link active d-flex align-items-center gap-2 px-0 px-md-3 px-lg-3" href="#Ingredients" data-bs-toggle="tab">
+                                    <i class="fa-solid fa-list-check text-ligthGray"></i>
+                                    <span class="text-ligthGray fw-500 fs-12 fs-lg-14 text-truncate">Ingredients</span>
+                                </a>
+                            </li>
+                            <li class="nav-item position-relative">
+                                <a class="nav-link d-flex align-items-center gap-2 px-0 px-md-3 px-lg-3" href="#Instructions" data-bs-toggle="tab">
+                                    <i class="fa-solid fa-book-open text-ligthGray"></i>
+                                    <span class="text-ligthGray fw-500 fs-12 fs-lg-14 text-truncate">Instructions</span>
+                                </a>
+                            </li>
+                            <li class="nav-item position-relative">
+                                <a class="nav-link d-flex align-items-center gap-2 px-0 px-md-3 px-lg-3" href="#Nutrition" data-bs-toggle="tab">
+                                    <i class="fa-solid fa-chart-pie text-ligthGray"></i> <span
+                                        class="text-ligthGray fw-500 fs-12 fs-lg-14 text-truncate">Nutrition</span>
+                                </a>
+                            </li>
+                            <li class="nav-item position-relative">
+                                <a class="nav-link d-flex align-items-center gap-2 px-0 px-md-3 px-lg-3" href="#Tips" data-bs-toggle="tab">
+                                    <i class="fa-solid fa-lightbulb text-ligthGray"></i> <span
+                                        class="text-ligthGray fw-500 fs-12 fs-lg-14 text-truncate">Chef's
+                                        Tips</span>
+                                </a>
+                            </li>
+
+
+                        </ul>
+
+                        <div class="tab-content">
+
+                            <div id="Ingredients" class="p-4 rounded-4 tab-pane show active">
+                                <ul class="ps-0 mb-0" id="ingredients-list">
+                                    <li class="d-flex align-items-start mb-12">
+                                        <div
+                                            class="d-flex align-items-center justify-content-center me-12 Ingredients-steps rounded-circle text-white fs-12 fw-bolder">
+                                            1</div>
+                                        <span class="text-darkGray fs-12 fs-lg-16 fw-300">500g ground beef (80/20)
+                                        </span>
+                                    </li>
+                                    <li class="d-flex align-items-start mb-12">
+                                        <div
+                                            class="d-flex align-items-center justify-content-center me-12 Ingredients-steps rounded-circle text-white fs-12 fw-bolder">
+                                            2</div>
+                                        <span class="text-darkGray fs-12 fs-lg-16 fw-300">4 burger buns
+
+                                        </span>
+                                    </li>
+                                    <li class="d-flex align-items-start mb-12">
+                                        <div
+                                            class="d-flex align-items-center justify-content-center me-12 Ingredients-steps rounded-circle text-white fs-12 fw-bolder">
+                                            3</div>
+                                        <span class="text-darkGray fs-12 fs-lg-16 fw-300">4 slices cheddar cheese
+
+                                        </span>
+                                    </li>
+                                    <li class="d-flex align-items-start mb-12">
+                                        <div
+                                            class="d-flex align-items-center justify-content-center me-12 Ingredients-steps rounded-circle text-white fs-12 fw-bolder">
+                                            4</div>
+                                        <span class="text-darkGray fs-12 fs-lg-16 fw-300">Lettuce leaves
+
+                                        </span>
+                                    </li>
+                                    <li class="d-flex align-items-start mb-12">
+                                        <div
+                                            class="d-flex align-items-center justify-content-center me-12 Ingredients-steps rounded-circle text-white fs-12 fw-bolder">
+                                            5</div>
+                                        <span class="text-darkGray fs-12 fs-lg-16 fw-300">Tomato slices
+
+                                        </span>
+                                    </li>
+                                    <li class="d-flex align-items-start mb-12">
+                                        <div
+                                            class="d-flex align-items-center justify-content-center me-12 Ingredients-steps rounded-circle text-white fs-12 fw-bolder">
+                                            6</div>
+                                        <span class="text-darkGray fs-12 fs-lg-16 fw-300">Red onion, sliced
+
+                                        </span>
+                                    </li>
+                                    <li class="d-flex align-items-start mb-12">
+                                        <div
+                                            class="d-flex align-items-center justify-content-center me-12 Ingredients-steps rounded-circle text-white fs-12 fw-bolder">
+                                            7</div>
+                                        <span class="text-darkGray fs-12 fs-lg-16 fw-300">Pickles
+
+                                        </span>
+                                    </li>
+                                    <li class="d-flex align-items-start mb-12">
+                                        <div
+                                            class="d-flex align-items-center justify-content-center me-12 Ingredients-steps rounded-circle text-white fs-12 fw-bolder">
+                                            8</div>
+                                        <span class="text-darkGray fs-12 fs-lg-16 fw-300">Burger sauce or condiments
+
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                            <div id="Instructions" class="overflow-y-auto tab-pane">
+                                <div id="Instructions-list">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div
+                                            class="Instructions rounded-14 me-3 fs-lg-18 fs-16 d-flex align-items-center justify-content-center text-white fw-bolder">
+                                            1
+                                        </div>
+
+                                        <span class="text-darkGray fs-lg-16 fs-14 fw-400">Divide ground beef into 4
+                                            equal
+                                            portions. Form into patties, making a small indent in the center.</span>
+
+                                    </div>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div
+                                            class="Instructions rounded-14 me-3 fs-lg-18 fs-16 d-flex align-items-center justify-content-center text-white fw-bolder">
+                                            2
+                                        </div>
+
+                                        <span class="text-darkGray fs-lg-16 fs-14 fw-400">
+                                            Season patties generously with salt and pepper on both sides.</span>
+
+                                    </div>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div
+                                            class="Instructions rounded-14 me-3 fs-lg-18 fs-16 d-flex align-items-center justify-content-center text-white fw-bolder">
+                                            3
+                                        </div>
+
+                                        <span class="text-darkGray fs-lg-16 fs-14 fw-400">
+                                            Heat a grill or skillet over high heat. Cook patties for 4-5 minutes per
+                                            side
+                                            for medium.</span>
+
+                                    </div>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div
+                                            class="Instructions rounded-14 me-3 fs-lg-18 fs-16 d-flex align-items-center justify-content-center text-white fw-bolder">
+                                            4
+                                        </div>
+
+                                        <span class="text-darkGray fs-lg-16 fs-14 fw-400">Add cheese slices in the last
+                                            minute of cooking and cover to melt.</span>
+
+                                    </div>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div
+                                            class="Instructions rounded-14 me-3 fs-lg-18 fs-16 d-flex align-items-center justify-content-center text-white fw-bolder">
+                                            5
+                                        </div>
+
+                                        <span class="text-darkGray fs-lg-16 fs-14 fw-400">Toast burger buns lightly on
+                                            the
+                                            grill or in a pan.
+
+                                        </span>
+
+                                    </div>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div
+                                            class="Instructions rounded-14 me-3 fs-lg-18 fs-16 d-flex align-items-center justify-content-center text-white fw-bolder">
+                                            6
+                                        </div>
+
+                                        <span class="text-darkGray fs-lg-16 fs-14 fw-400">Assemble burgers with lettuce,
+                                            tomato, onion, pickles, and your favorite sauce.</span>
+
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                            <div id="Nutrition" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-6">
+                                        <div class="p-3 d-flex align-items-center justify-content-between">
+                                            <div class="d-flex align-items-center">
+                                                <div
+                                                    class="d-flex align-items-center justify-content-center me-12 rounded-14">
+                                                    <i class="fa-solid fa-fire"></i>
+                                                </div>
+
+                                                <span class="text-dark-2 fw-500">Calories</span>
+                                            </div>
+
+                                            <span class="fw-bolder fs-18" id="nutrition-calories">650 kcal
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-6">
+                                        <div class="p-3 d-flex align-items-center justify-content-between">
+                                            <div class="d-flex align-items-center">
+                                                <div
+                                                    class="d-flex align-items-center justify-content-center me-12 rounded-14">
+                                                    <i class="fa-solid fa-dumbbell"></i>
+                                                </div>
+
+                                                <span class="text-dark-2 fw-500">Protein</span>
+                                            </div>
+
+                                            <span class="fw-bolder fs-18" id="nutrition-protein">38g
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-6">
+                                        <div class="p-3 d-flex align-items-center justify-content-between">
+                                            <div class="d-flex align-items-center">
+                                                <div
+                                                    class="d-flex align-items-center justify-content-center me-12 rounded-14">
+                                                    <i class="fa-solid fa-wheat-awn"></i>
+                                                </div>
+
+                                                <span class="text-dark-2 fw-500">Carbohydrates</span>
+                                            </div>
+
+                                            <span class="fw-bolder fs-18" id="nutrition-carbs">42g
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-6">
+                                        <div class="p-3 d-flex align-items-center justify-content-between">
+                                            <div class="d-flex align-items-center">
+                                                <div
+                                                    class="d-flex align-items-center justify-content-center me-12 rounded-14">
+                                                    <i class="fa-solid fa-droplet"></i>
+                                                </div>
+
+                                                <span class="text-dark-2 fw-500">Fat</span>
+                                            </div>
+
+                                            <span class="fw-bolder fs-18" id="nutrition-fat">35g
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-6">
+                                        <div class="p-3 d-flex align-items-center justify-content-between">
+                                            <div class="d-flex align-items-center">
+                                                <div
+                                                    class="d-flex align-items-center justify-content-center me-12 rounded-14">
+                                                    <i class="fa-solid fa-seedling"></i>
+                                                </div>
+
+                                                <span class="text-dark-2 fw-500">Fiber
+                                                </span>
+                                            </div>
+
+                                            <span class="fw-bolder fs-18" id="nutrition-fiber">2g
+
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-6">
+                                        <div class="p-3 d-flex align-items-center justify-content-between">
+                                            <div class="d-flex align-items-center">
+                                                <div
+                                                    class="d-flex align-items-center justify-content-center me-12 rounded-14">
+                                                    <i class="fa-solid fa-cube"></i>
+                                                </div>
+
+                                                <span class="text-dark-2 fw-500">Sodium
+                                                </span>
+                                            </div>
+
+                                            <span class="fw-bolder fs-18" id="nutrition-sodium">920mg
+
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Tips" class="tab-pane">
+                                <div id="tips-list">
+                                    <div class="d-flex align-items-center p-3 mb-3 rounded-14">
+                                        <div class="d-flex align-items-center">
+
+                                            <i class="fa-solid fa-circle-check fs-18 rounded-circle me-12"></i>
+                                            <span class="text-darkGray fs-14 fs-lg-16 fw-400">Don't press down on
+                                                burgers while cooking - keeps them juicy</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center p-3 mb-3 rounded-14">
+                                        <div class="d-flex align-items-center">
+
+                                            <i class="fa-solid fa-circle-check fs-18 rounded-circle me-12"></i>
+                                            <span class="text-darkGray fs-14 fs-lg-16 fw-400">Make indent in center to
+                                                prevent burger from puffing up
+
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center p-3 mb-3 rounded-14">
+                                        <div class="d-flex align-items-center">
+
+                                            <i class="fa-solid fa-circle-check fs-18 rounded-circle me-12"></i>
+                                            <span class="text-darkGray fs-14 fs-lg-16 fw-400">Let patties rest for 2-3
+                                                minutes before serving
+
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center p-3 mb-3 rounded-14">
+                                        <div class="d-flex align-items-center">
+
+                                            <i class="fa-solid fa-circle-check fs-18 rounded-circle me-12"></i>
+                                            <span class="text-darkGray fs-14 fs-lg-16 fw-400">Toast buns for better
+                                                texture and flavor
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="mt-32 pt-4">
+                            <button class="border-0 rounded-4 py-12 px-4 text-white fw-500" id="random-recipe-btn">
+                                <i class="fa-solid fa-rotate me-2"></i>Try Another Recipe
+
+
+                            </button>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
